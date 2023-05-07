@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Приветствуем вас в игре. Вы играете за агента X и вом предстоит выполнить несколько миссий в ходе операции Z. У вас есть пистолет, нож и бомба с таймером. В каждой миссии вашей задачей будет добраться в живых до самой защищённой комнаты в базе противника, чтобы отправить засекреченную информацию хронящуюся там"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        >
+
+    </ListView>
+
+</LinearLayout>
